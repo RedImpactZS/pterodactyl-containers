@@ -1,4 +1,4 @@
-FROM --platform=$TARGETOS/$TARGETARCH docker.io/library/almalinux:9-minimal AS base
+FROM --platform=$TARGETOS/$TARGETARCH docker.io/library/almalinux:8.10-minimal AS base
 
 LABEL maintainer="Cameron Carney <ccarney@zyphi.co>"
 
